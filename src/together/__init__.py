@@ -18,7 +18,6 @@ from together.version import VERSION
 
 from together.legacy.complete import AsyncComplete, Complete, Completion
 from together.legacy.embeddings import Embeddings
-from together.legacy.files import Files
 from together.legacy.finetune import Finetune
 from together.legacy.images import Image
 from together.legacy.models import Models
@@ -65,7 +64,6 @@ __all__ = [
     "AsyncComplete",
     "Completion",
     "Embeddings",
-    "Files",
     "Finetune",
     "Image",
     "Models",
